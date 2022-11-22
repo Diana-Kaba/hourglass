@@ -2,8 +2,8 @@
 let countSand = +prompt('Введите количество "песка" (в секундах):');
 let t;
 function start() {
-  countSand--;
   document.write(countSand + " ");
+  countSand--;
   if (countSand <= 0) {
     clearInterval(t);
     alert("Ваше время истекло.");
